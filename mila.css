@@ -22,7 +22,12 @@
     letter-spacing: 1vw;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    color: black;
 }
+
+.title:hover {
+    color: red;
+} 
 
 .titleB {
     border-top: 3px solid black;
@@ -40,7 +45,8 @@
 }
 
 #introduction {
-    margin: 10% 20%;
+    margin: 0 20%;
+    margin-top: 8%;
     text-align: center;
     /*border-bottom: 3px solid transparent;
     border-image: linear-gradient(to bottom right, #EEEEEE 0%, #DDDDDD 25%, #CCCCCC 50%, #BBBBBB 75%, #333333 100%);
@@ -74,4 +80,53 @@
 
 #carouselExampleIndicators img{
     width: 25%;
+}
+
+/**/
+nav {
+    font-family: 'Grit Primer', serif;
+}
+
+nav a {
+    font-size: 29px!important;
+}
+footer {
+    margin-top: 10%;
+    font-family: 'Grit Primer', serif;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+
+/*STILE TAVOLE + SINOSSI*/
+.sourceDescr {
+    margin: 0 20%;
+    padding-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tableHeader {
+    text-align: center;
+}
+
+.tableHeader th:hover {
+    color: red;
+}
+
+table {
+    margin: 0 2%;
+    border-collapse: collapse;
+    border: 2px black solid;
+    font: 14px sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+td {
+    border: 1px black solid;
+    padding: 5px;
+}
+
+td:hover {
+    color: rgb(110, 14, 14);
 }
